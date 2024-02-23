@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weight Logging Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="Beka heart.jpg" alt="Beka's Wellness Hub Logo">
+      </div>
+      <ul class="nav-links">
+     <li><a href="Home.html" target="_blank">Home</a></li>
+        <li><a href="Nutrition.html" target="_blank">Nutrition</a></li>
+        <li><a href="Exercise.html" target="_blank">Exercise</a></li>
+        <li><a href="Weight Tracking.html" target="_blank">Weight Tracking</a></li>
+        <li><a href="About Us.html" target="_blank">About Us</a></li>
+        <li><a href="Contact Us.html" target="_blank">Contact Us</a></li>   
+ </ul>
+    </nav>
+  </header>
+<div class="container">
+    <h2>Track Your Weight</h2>
+    <p>Start your health journey today by logging your weight and monitoring your progress.😊</p>
+    <form id="weightForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="age">Age:</label>
+      <input type="number" id="age" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="weight">Weight:</label>
+      <input type="number" id="weight" required>
+      <button type="submit">Log Weight</button>
+    </form>
+    <div id="alertMessage"></div>
+    <p class="privacy-policy">Your Privacy Matters: Beka's Wellness and Fitness Hub prioritize the security and confidentiality of your weight data. Read our <a href="#">privacy policy</a> for more information.</p>
+    <p class="feedback-support">Need Help? Have feedback or questions about our weight tracking feature? <a href="#">Contact us</a>, and we'll be happy to assist you.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
